@@ -51,10 +51,18 @@ We recommend working with a conda environment.
 ```
 conda env create -f environment.yaml
 conda activate robogen
+mamba install -c "nvidia/label/cuda-11.7.1" cuda
+pip install chamferdist==1.0.0
 ```
 If installing from this yaml file doesn't work, manual installation of missing packages should also work.
 
 ### Open Motion Planning Library
+Update the Pypy3 by
+```
+sudo apt-get uninstall pypy3
+sudo add-apt-repository ppa:pypy/ppa
+sudo apt-get install pypy3
+```
 RoboGen leverages [Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/) for motion planning as part of the pipeline to solve the generated task. 
 To install OMPL, run
 ```

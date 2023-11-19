@@ -7,3 +7,7 @@ primitive_states/
 all_last_state_files_*.txt
 all*.gif
 env_construction/
+data/dataset/
+ompl-1.5.2/
+objaverse_utils/data/
+gpt_4/api_key.py

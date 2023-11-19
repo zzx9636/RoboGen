@@ -25,6 +25,7 @@ dependencies:
   - cuda-nvrtc=11.7.99=0
   - cuda-nvtx=11.7.91=0
   - cuda-runtime=11.7.1=0
+  # - cuda-nvcc=11.7.99=0
   - ffmpeg=4.3=hf484d3e_0
   - flit-core=3.6.0=pyhd3eb1b0_0
   - freetype=2.12.1=h4a9f257_0
@@ -149,7 +150,7 @@ dependencies:
       - catalogue==2.0.9
       - cffi==1.14.2
       - cfgv==3.3.1
-      - chamferdist==1.0.0
+      # - chamferdist==1.0.0
       - click==8.0.4
       - cloudpickle==2.2.1
       - colorama==0.4.6
